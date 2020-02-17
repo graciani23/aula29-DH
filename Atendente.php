@@ -1,5 +1,5 @@
 <?php 
-
+    require 'Funcionarios.php';
     // extends sinaliza que Atendente herda de Funcionários
     class Atendente extends Funcionarios { // php não permite usar funções. Ex. strtolower
         public $conhecimento;
